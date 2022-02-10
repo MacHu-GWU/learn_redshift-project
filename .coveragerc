@@ -1,10 +1,13 @@
 # Coverage.py is a tool for measuring code coverage of Python programs.
-# for more info: https://coverage.readthedocs.io/en/coverage-4.4.1/config.html
+# for more info: https://coverage.readthedocs.io/en/latest/config.html
 [run]
 omit =
+    learn_redshift/_version.py
+    learn_redshift/cli.py
     learn_redshift/pkg/*
     learn_redshift/docs/*
     learn_redshift/tests/*
+    learn_redshift/handlers/*
 
 [report]
 # Regexes for lines to exclude from consideration

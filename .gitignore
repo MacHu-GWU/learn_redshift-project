@@ -2,6 +2,7 @@
 learn_redshift_venv/
 learn_redshift.egg-info/
 learn_redshift-*/
+tmp/
 
 
 # Byte-compiled / optimized / DLL files
@@ -70,7 +71,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+docs/build/
 
 # PyBuilder
 target/
