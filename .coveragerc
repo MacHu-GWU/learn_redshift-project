@@ -2,12 +2,12 @@
 # for more info: https://coverage.readthedocs.io/en/latest/config.html
 [run]
 omit =
-    learn_redshift/_version.py
-    learn_redshift/cli.py
-    learn_redshift/pkg/*
     learn_redshift/docs/*
     learn_redshift/tests/*
-    learn_redshift/handlers/*
+    learn_redshift/vendor/*
+    learn_redshift/_version.py
+    learn_redshift/cli.py
+    learn_redshift/paths.py
 
 [report]
 # Regexes for lines to exclude from consideration

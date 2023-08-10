@@ -1,7 +1,5 @@
 # User Settings
-learn_redshift_venv/
 learn_redshift.egg-info/
-learn_redshift-*/
 tmp/
 
 
